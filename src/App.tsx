@@ -15,7 +15,9 @@ import { Reveal } from "./components/Reveal";
 function App() {
   return (
     <div className="min-h-screen flex flex-col font-sans selection:bg-herlign-accent selection:text-herlign-dark">
-      <Header />
+      <Reveal width="100%">
+        <Header />
+      </Reveal>
       <Reveal width="100%">
         <HeroGrid />
       </Reveal>
@@ -43,9 +45,9 @@ function App() {
       <Reveal width="100%">
         <Testimonial />
       </Reveal>
-      <Reveal width="100%">
+      {/* <Reveal width="100%">
         <Vision />
-      </Reveal>
+      </Reveal> */}
       <Footer />
     </div>
   );
