@@ -5,9 +5,8 @@ import { Approach } from "./components/Approach";
 import { Impact } from "./components/Impact";
 import { Initiatives } from "./components/Initiatives";
 import { Testimonial } from "./components/Testimonial";
-import { Vision } from "./components/Vision";
 import { Footer } from "./components/Footer";
-import { HeroGrid } from "./components/HeroGrid";
+import { WhatWeOffer } from "./components/WhatWeOffer";
 import { CompanyLogos } from "./components/CompanyLogos";
 import { VentureBanner } from "./components/VentureBanner";
 import { Reveal } from "./components/Reveal";
@@ -19,7 +18,7 @@ function App() {
         <Header />
       </Reveal>
       <Reveal width="100%">
-        <HeroGrid />
+        <WhatWeOffer />
       </Reveal>
       <Reveal width="100%">
         <CompanyLogos />
@@ -45,9 +44,6 @@ function App() {
       <Reveal width="100%">
         <Testimonial />
       </Reveal>
-      {/* <Reveal width="100%">
-        <Vision />
-      </Reveal> */}
       <Footer />
     </div>
   );
