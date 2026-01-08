@@ -45,7 +45,7 @@ const OfferCard = ({
             {description}
           </p>
           <button className="mt-4 px-6 py-2 border border-green-600 text-green-700 font-semibold rounded hover:bg-green-50 transition-colors">
-            Book now
+          Learn more
           </button>
         </div>
       </div>
@@ -60,7 +60,7 @@ const OfferCard = ({
             {description}
           </p>
           <button className="mt-4 px-6 py-2 border border-green-600 text-green-700 font-semibold rounded hover:bg-green-50 transition-colors">
-            Book now
+           Learn more
           </button>
         </div>
 

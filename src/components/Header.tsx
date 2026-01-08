@@ -38,24 +38,24 @@ export const Header = () => {
           >
             About us
           </a>
-          <a
+          {/* <a
             href="#services"
             className="hover:text-herlign-accent transition-colors"
           >
             Services
-          </a>
+          </a> */}
           <a
             href="#testimonials"
             className="hover:text-herlign-accent transition-colors"
           >
             Testimonials
           </a>
-          <a
+          {/* <a
             href="#work"
             className="hover:text-herlign-accent transition-colors"
           >
             Work
-          </a>
+          </a> */}
           <a
             href="#book"
             className="hover:text-herlign-accent transition-colors"
@@ -106,13 +106,13 @@ export const Header = () => {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="md:hidden absolute top-[74px] left-0 right-0 bg-white z-20 flex flex-col items-center py-6 shadow-lg border-t border-gray-100 overflow-hidden"
           >
-            <a
+            {/* <a
               href="#about"
               className="py-2 text-lg font-medium text-[#333]"
               onClick={() => setIsMenuOpen(false)}
             >
               About us
-            </a>
+            </a> */}
             <a
               href="#services"
               className="py-2 text-lg font-medium text-[#333]"
@@ -120,20 +120,20 @@ export const Header = () => {
             >
               Services
             </a>
-            <a
+            {/* <a
               href="#testimonials"
               className="py-2 text-lg font-medium text-[#333]"
               onClick={() => setIsMenuOpen(false)}
             >
               Testimonials
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="#work"
               className="py-2 text-lg font-medium text-[#333]"
               onClick={() => setIsMenuOpen(false)}
             >
               Work
-            </a>
+            </a> */}
             <a
               href="#book"
               className="py-2 text-lg font-medium text-[#333]"
