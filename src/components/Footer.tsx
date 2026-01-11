@@ -71,7 +71,7 @@ export const Footer = () => {
 
           {/* Column 2 */}
           <motion.div className="flex flex-col gap-4" variants={itemVariants}>
-            <p className="font-medium text-gray-900">Engage@herlign.org</p>
+            <p className="font-medium text-gray-900">engage@herlign.org</p>
             <a href="/services" className="text-gray-600 hover:text-gray-900">
               Services
             </a>
@@ -83,9 +83,7 @@ export const Footer = () => {
           {/* Column 3 */}
           <motion.div className="flex flex-col gap-4" variants={itemVariants}>
             <div className="font-medium text-gray-900">
-              <p>2972 Westheimer Rd.</p>
-              <p>Santa Ana, Illinois</p>
-              <p>85486</p>
+              
             </div>
             <a href="/contact" className="text-gray-600 hover:text-gray-900">
               Contact us
