@@ -60,7 +60,7 @@ export const Footer = () => {
         <div className="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8 text-sm">
           {/* Column 1 */}
           <motion.div className="flex flex-col gap-4" variants={itemVariants}>
-            <p className="font-medium text-gray-900">+98 00000000</p>
+            <p className="font-medium text-gray-900">+234 806 960 5029</p>
             <a href="/about" className="text-gray-600 hover:text-gray-900">
               About us
             </a>
@@ -71,7 +71,7 @@ export const Footer = () => {
 
           {/* Column 2 */}
           <motion.div className="flex flex-col gap-4" variants={itemVariants}>
-            <p className="font-medium text-gray-900">info@acmedesign.com</p>
+            <p className="font-medium text-gray-900">Engage@herlign.org</p>
             <a href="/services" className="text-gray-600 hover:text-gray-900">
               Services
             </a>
