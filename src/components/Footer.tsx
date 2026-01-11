@@ -83,7 +83,7 @@ export const Footer = () => {
           {/* Column 3 */}
           <motion.div className="flex flex-col gap-4" variants={itemVariants}>
             <div className="font-medium text-gray-900">
-              
+              <br />
             </div>
             <a href="/contact" className="text-gray-600 hover:text-gray-900">
               Contact us
