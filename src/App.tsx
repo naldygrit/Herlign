@@ -6,6 +6,7 @@ import { CompanyLogos } from "./components/CompanyLogos";
 import { VentureBanner } from "./components/VentureBanner";
 import { Reveal } from "./components/Reveal";
 import { ImpactImages } from "./components/ImpactImages";
+import { Journey } from "./components/Journey";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
         <ImpactImages />
       </Reveal>
 
+      <Reveal width="100%">
+        <Journey />
+      </Reveal>
+    
       <Reveal width="100%">
         <CompanyLogos />
       </Reveal>
