@@ -1,6 +1,12 @@
 import { useState } from "react";
-import { RiWhatsappLine } from "react-icons/ri";
+import { SiGmail } from "react-icons/si";
 import { motion, AnimatePresence } from "framer-motion";
+
+const NAV_LINKS = [
+  { label: "About us", href: "#about" },
+  { label: "Testimonials", href: "#testimonials" },
+  { label: "Book a service", href: "#book" },
+];
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,36 +38,15 @@ export const Header = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 text-black font-normal text-lg">
-          <a
-            href="#about"
-            className="hover:text-herlign-accent transition-colors"
-          >
-            About us
-          </a>
-          {/* <a
-            href="#services"
-            className="hover:text-herlign-accent transition-colors"
-          >
-            Services
-          </a> */}
-          <a
-            href="#testimonials"
-            className="hover:text-herlign-accent transition-colors"
-          >
-            Testimonials
-          </a>
-          {/* <a
-            href="#work"
-            className="hover:text-herlign-accent transition-colors"
-          >
-            Work
-          </a> */}
-          <a
-            href="#book"
-            className="hover:text-herlign-accent transition-colors"
-          >
-            Book a service
-          </a>
+          {NAV_LINKS.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="hover:text-herlign-primary/80 transition-colors"
+            >
+              {link.label}
+            </a>
+          ))}
         </div>
 
         {/* Mobile Menu Button */}
@@ -96,7 +81,6 @@ export const Header = () => {
       </nav>
 
       {/* Mobile Menu Dropdown */}
-      {/* Mobile Menu Dropdown */}
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div
@@ -106,41 +90,16 @@ export const Header = () => {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="md:hidden absolute top-[74px] left-0 right-0 bg-white z-20 flex flex-col items-center py-6 shadow-lg border-t border-gray-100 overflow-hidden"
           >
-            {/* <a
-              href="#about"
-              className="py-2 text-lg font-medium text-[#333]"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About us
-            </a> */}
-            <a
-              href="#services"
-              className="py-2 text-lg font-medium text-[#333]"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Services
-            </a>
-            {/* <a
-              href="#testimonials"
-              className="py-2 text-lg font-medium text-[#333]"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Testimonials
-            </a> */}
-            {/* <a
-              href="#work"
-              className="py-2 text-lg font-medium text-[#333]"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Work
-            </a> */}
-            <a
-              href="#book"
-              className="py-2 text-lg font-medium text-[#333]"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Book a service
-            </a>
+            {NAV_LINKS.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="py-2 text-lg font-medium text-[#333]"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ))}
           </motion.div>
         )}
       </AnimatePresence>
@@ -181,13 +140,13 @@ export const Header = () => {
         </div>
       </div>
 
-      {/* WhatsApp Bubble (Optional match to design) */}
+      {/* Email Floating Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a
-          href="#"
-          className="flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-xl hover:scale-110 transition-transform"
+          href="mailto:engage@herlign.org"
+          className="flex items-center justify-center w-14 h-14 bg-white rounded-full shadow-xl hover:scale-110 transition-transform"
         >
-          <RiWhatsappLine className="w-8 h-8 text-white" />
+          <SiGmail className="w-8 h-8 text-[#EA4335]" />
         </a>
       </div>
     </div>
