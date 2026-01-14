@@ -83,7 +83,7 @@ export const Approach = () => {
   return (
     <Section>
       <SectionTitle>Building the Founders who Build Africa.</SectionTitle>
-      <p className="mb-12 text-gray-700 text-lg max-w-3xl">
+      <p className="mb-12 text-gray-700 text-lg w-full text-center">
         By aligning behavioral wellness with business strategy, we equip the
         next generation of women with the stamina to become high-impact
         builders; creating startups that will redefine and dominate the African
