@@ -109,11 +109,11 @@ const OfferCard = ({
 export const WhatWeOffer = () => {
   const offers = [
     {
-      title: "Funding Opportunities",
+      title: "TNN Club",
       description:
-        "Discover various funding options available for women-led ventures to kickstart your journey.",
+        "Join our TNN Club to connect with like-minded women entrepreneurs and access exclusive opportunities.",
       imageSrc: "/images/funding_opportunities.png",
-      link: undefined,
+      link: "https://t.me/+39XcMjOta08yODQ0",
     },
     {
       title: "Global Events and Conversations",
@@ -121,14 +121,7 @@ export const WhatWeOffer = () => {
         "Join our global network of events and conversations designed to connect and inspire women entrepreneurs worldwide.",
       imageSrc: "/images/global_events.png",
       isReversed: true,
-      link: 'https://globalgirlsfestival.com',
-    },
-    {
-      title: "Mentorship Programs",
-      description:
-        "Connect with experienced mentors who guide you through every step of your business development.",
-      imageSrc: "/images/mentorship_programs.png",
-      link: undefined,
+      link: "https://globalgirlsfestival.com",
     },
     {
       title: "Venture Studio",
@@ -136,6 +129,13 @@ export const WhatWeOffer = () => {
         "Work with our venture studio to co-create and launch scalable businesses that solve real-world problems.",
       imageSrc: "/images/venture_studio.png",
       isReversed: true,
+      link: undefined,
+    },
+    {
+      title: "Mentorship Programs",
+      description:
+        "Connect with experienced mentors who guide you through every step of your business development.",
+      imageSrc: "/images/mentorship_programs.png",
       link: undefined,
     },
   ];

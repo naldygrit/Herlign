@@ -57,9 +57,9 @@ export const Approach = () => {
       imageSrc: "/images/diverse_ecosystems.png",
     },
     {
-      title: "Supportive Networks",
+      title: "Wellness Garden",
       description:
-        "Community, mentorship, and opportunities tailored for female entrepreneurs and students.",
+        "Cultivating the behavioural strength and resilience founders need to build for scale, sustainability, and lasting impact.",
       imageSrc: "/images/supportive_networks.png",
     },
     {
@@ -82,11 +82,12 @@ export const Approach = () => {
 
   return (
     <Section>
-      <SectionTitle>Our Four-Fold Approach</SectionTitle>
+      <SectionTitle>Building the Founders who Build Africa.</SectionTitle>
       <p className="mb-12 text-gray-700 text-lg max-w-3xl">
-        For <strong>next-gen female</strong> entrepreneurs, we provide full
-        operational support to build{" "}
-        <strong>investable, strong companies</strong> from the ground up.
+        By aligning behavioral wellness with business strategy, we equip the
+        next generation of women with the stamina to become high-impact
+        builders; creating startups that will redefine and dominate the African
+        marketplace.
       </p>
 
       <motion.div
