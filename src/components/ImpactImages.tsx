@@ -41,28 +41,28 @@ const ImpactItem: React.FC<ImpactItemProps> = ({
 export const ImpactImages = () => {
   const impactItems = [
     {
-      imageSrc: "/images/impact_networking.png",
-      description: "Women networking at a professional event.",
+      imageSrc: "/images/image_1.jpg",
+      description: "Some Speakers at the Global Girls Festival, Champions 2025",
     },
     {
-      imageSrc: "/images/impact_workshop.png",
-      description: "A young entrepreneur engaged in a workshop.",
+      imageSrc: "/images/image_2.jpg",
+      description: "A brilliant session at The New Narrative, Lagos, Nigeria.",
     },
     {
-      imageSrc: "/images/impact_discussion.png",
-      description: "Group discussion focused on funding possibilities.",
+      imageSrc: "/images/image_3.jpg",
+      description: "Workshop Sessions & Engagements",
     },
     {
-      imageSrc: "/images/impact_leadership.png",
-      description: "Inspirational leadership sessions for female builders.",
+      imageSrc: "/images/image_4.jpg",
+      description: "The New Narrative, Ibadan, Nigeria",
     },
     {
-      imageSrc: "/images/impact_collaboration.png",
-      description: "Strategic collaboration and mentorship programs.",
+      imageSrc: "/images/image_5.jpg",
+      description: "The New Narrative, Ikoyi, Lagos",
     },
     {
-      imageSrc: "/images/impact_community.png",
-      description: "A vibrant community of women building the future.",
+      imageSrc: "/images/image_6.jpg",
+      description: "WRAPHER Conversations",
     },
   ];
 
