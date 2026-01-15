@@ -54,7 +54,7 @@ export const Approach = () => {
       title: "Diverse Ecosystems",
       description:
         "Curated events and movements to inspire, educate, and elevate female builders.",
-      imageSrc: "/images/diverse_ecosystems.png",
+      imageSrc: "/images/diverse_ecosystems_new.png",
     },
     {
       title: "Wellness Garden",

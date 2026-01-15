@@ -135,7 +135,13 @@ export const Header = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="bg-white text-herlign-primary px-8 py-3 rounded-sm font-bold text-lg hover:bg-transparent hover:text-white border border-white transition-colors shadow-lg"
           >
-            Join our mission
+            <a
+              href="https://linktr.ee/herlign"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join our mission
+            </a>
           </motion.button>
         </div>
       </div>

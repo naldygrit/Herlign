@@ -109,10 +109,17 @@ const OfferCard = ({
 export const WhatWeOffer = () => {
   const offers = [
     {
+      title: "Growth Programs & Hubs",
+      description:
+        "Connect with experienced mentors who guide you through every step of your business development.",
+      imageSrc: "/images/mentorship_programs.png",
+      link: undefined,
+    },
+    {
       title: "TNN Club",
       description:
-        "Join our TNN Club to connect with like-minded women entrepreneurs and access exclusive opportunities.",
-      imageSrc: "/images/funding_opportunities.png",
+        "TNN CLUB is the guiding light that ensures NXT GEN women become high impact builders",
+      imageSrc: "/images/tnn_club_community.png",
       link: "https://t.me/+39XcMjOta08yODQ0",
     },
     {
@@ -129,13 +136,6 @@ export const WhatWeOffer = () => {
         "Work with our venture studio to co-create and launch scalable businesses that solve real-world problems.",
       imageSrc: "/images/venture_studio.png",
       isReversed: true,
-      link: undefined,
-    },
-    {
-      title: "Mentorship Programs",
-      description:
-        "Connect with experienced mentors who guide you through every step of your business development.",
-      imageSrc: "/images/mentorship_programs.png",
       link: undefined,
     },
   ];
